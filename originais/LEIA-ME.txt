@@ -1,0 +1,15 @@
+Coloque aqui as imagens originais, do tamanho que vierem (JPG, PNG, WebP, AVIF ou TIFF).
+
+Organize em subpastas. Sugestão:
+  originais/foto.jpg                    foto de perfil (fica na raiz)
+  originais/capas/posts.jpg             capas das coleções (opcional)
+  originais/projetos/nome-do-projeto.jpg   imagens dos projetos
+
+Depois rode, na pasta do projeto:
+  npm run imagens
+
+O comando converte tudo para WebP, cria as miniaturas e mostra os caminhos
+para usar no arquivo src/content.js. PNG com fundo transparente (adesivos)
+mantém a transparência.
+
+Esta pasta não vai para o GitHub: só as imagens já otimizadas (pasta public) vão.

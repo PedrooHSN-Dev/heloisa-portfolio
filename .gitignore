@@ -1,0 +1,8 @@
+node_modules
+dist
+dist-single
+.DS_Store
+
+# Imagens originais ficam só no computador; o site usa as otimizadas da pasta public.
+originais/*
+!originais/LEIA-ME.txt
